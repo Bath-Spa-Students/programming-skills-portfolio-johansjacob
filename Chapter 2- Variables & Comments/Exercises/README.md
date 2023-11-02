@@ -5,7 +5,7 @@ Exercises with a tick mark :ballot_box_with_check: represent exercises that must
 Once you have completed your solution you should make sure you commit and push your solutions to your remote repository on GitHub. You can commit and push as many changes to your solutions as you wish, only those pushed before the chapter deadlines will be marked for the Programming Skills Portfolio.  
 
 
-&nbsp;
+&nbsp; 
 
 ## Exercise 1: Variables:ballot_box_with_check:
 
