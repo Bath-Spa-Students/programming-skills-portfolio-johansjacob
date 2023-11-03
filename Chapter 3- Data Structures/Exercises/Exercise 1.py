@@ -2,7 +2,10 @@
 
  time.'''
 
+#list containing name of my friends
 a=['Namith','Sathwik','Jerom','Alan','Sheehan','Sabah','Afnan','Alon','Akhinesh']
+
+#printing each name separately from the list
 
 print(a[0])
 print()
