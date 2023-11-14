@@ -18,3 +18,59 @@
 •	 Use sort() to change your list so it’s stored in alphabetical order. Print the list to show that its order has been changed.
 
 •	 Use sort() to change your list so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.'''
+
+
+#list of five place I want to visit
+place=['Spain','United Kingdom','Netherlands','Sweden','France']
+print(place)
+print()
+
+print('__________________________________________________________________________________')
+print()
+
+#sorting the list of places in alphabetical order
+s_place=sorted(place)
+print(s_place)
+print()
+
+print('__________________________________________________________________________________')
+print()
+
+#showing that the initial order of the list has not changed
+print(place)
+print()
+
+print('__________________________________________________________________________________')
+print()
+
+#using reverse() function the reverse the elements in the list of places
+place.reverse()
+print(place)
+print()
+
+print('__________________________________________________________________________________')
+print()
+
+#reversing the list of places back to its original order
+place.reverse()
+print(place)
+print()
+
+print('__________________________________________________________________________________')
+print()
+
+#using sort() function to sort the elements in the list of places in alphabetical order
+place.sort()
+print(place)
+print()
+
+print('__________________________________________________________________________________')
+print()
+
+#using sort() function to sort the elements in the list of places in reverse alphabetical order
+place.sort(reverse=True)
+print(place)
+print()
+
+print('__________________________________________________________________________________')
+print()
