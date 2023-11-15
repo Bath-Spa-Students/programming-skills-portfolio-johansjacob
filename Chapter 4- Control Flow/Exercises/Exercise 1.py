@@ -4,12 +4,14 @@
 
 •Write one version of this program that passes the if test and another that fails. (The version that fails will have no output.)'''
 
-
-alien_color = 'red'
-if alien_color == 'red':
+#Version which passes
+alien_color = 'green'
+if alien_color == 'green':
     print('You have earned 5 points')
 
-alien_color = 'green'
-if alien_color == 'red':
+
+#Version which fails
+alien_color = 'red'
+if alien_color == 'green':
     print('You have earned 5 points!')
 
