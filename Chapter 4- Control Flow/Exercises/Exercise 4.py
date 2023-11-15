@@ -13,16 +13,23 @@
 •If the person is age 65 or older, print a message that the person is an elder.
 '''
 
-Age = 17
-if Age < 2:
-    print("Aww! You're still a baby.")
-elif Age < 4:
-    print("Hey! You're a toddler.")
-elif Age < 13:
-    print("Hey! You're a kid.")
-elif Age < 20:
-    print("Hey! You're a teemager.")
-elif Age < 65:
-    print("Hey! You're an adult.")
+age = 19
+
+#if the person is less than 2 years old
+if age < 2:
+    print("You're a baby!")
+#if the person is at least 2 years old but less than 4    
+elif age < 4:
+    print("You're a toddler!")
+#if the person is at least 4 years old but less than 13
+elif age < 13:
+    print("You're a kid!")
+#if the person is at least 13 years old but less than 20
+elif age < 20:
+    print("You're a teenager!")
+#if the person is at least 20 years old but less than 65
+elif age < 65:
+    print("You're an adult!")
+#if the person is age 65 or older    
 else:
-    print("Hey! You're an elder.")
+    print("You're an elder!")
