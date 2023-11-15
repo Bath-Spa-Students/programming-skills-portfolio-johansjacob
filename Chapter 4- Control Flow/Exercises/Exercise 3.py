@@ -9,10 +9,15 @@
 •	 Write three versions of this program, making sure each message is printed for the appropriate color alien.'''
 
 
-alien_color = "Green"
-if alien_color == "Green":
+
+alien_color = 'red'
+
+#if alien is green
+if alien_color == 'green':
     print("You have earned 5 points!")
-elif alien_color == "Yellow":
+#if alien is yellow    
+elif alien_color == 'yellow':
     print("You have earned 10 points!")
+#if alien is red    
 else:
     print("You have earned 15 points!")
