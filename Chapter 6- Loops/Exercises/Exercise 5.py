@@ -4,6 +4,8 @@ near the beginning of your program to print a message saying the deli has run ou
 
 occurrences of 'pastrami' from sandwich_orders. Make sure no pastrami sandwiches end up in finished_sandwiches.'''
 
+
+#creating the list including 'pastrami'
 sandwich_orders = ['pastrami', 'veggie', 'chicken bbq', 'pastrami','meat deluxe', 'pastrami']
 finished_sandwiches = []
 
