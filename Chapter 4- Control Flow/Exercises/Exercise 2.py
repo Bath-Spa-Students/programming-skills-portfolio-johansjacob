@@ -8,15 +8,15 @@
 
 
 #if block
-alien_color = "Green"
-if alien_color == "Green":
-    print("You have earned 5 points for shooting the alien!")
+alien_color = "green"
+if alien_color == "green":
+    print("You have earned 5 points!")
 else:
-    print("You have earned 10 points.")
+    print("You have earned 10 points!")
 
 #else block
-alien_color = "Red"
-if alien_color == "Green":
-    print("You have earned 5 points for shooting the alien!")
+alien_color = "yellow"
+if alien_color == "green":
+    print("You have earned 5 points!")
 else:
-    print("You have earned 10 points.")
+    print("You have earned 10 points!")
