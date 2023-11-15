@@ -2,6 +2,7 @@
 
 should have keys such as first_name, last_name, age, and city. Print each piece of information stored in your dictionary.'''
 
+#creating a dictionary named person_infor to store the information about a person
 person_info = {'first_name': 'Johan','last_name': 'Jacob','age': 19,'city': 'Dubai'}
 
 print(person_info['first_name'])
