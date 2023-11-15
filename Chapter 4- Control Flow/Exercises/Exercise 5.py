@@ -6,16 +6,17 @@
 
 should print a statement,such as You really like bananas!'''
 
-Fruits = ["Jackfruit", "Banana", "Orange", "Grapes", "Rambutan"]
-if "Jackfruit" in Fruits:
-    print("Mango is my favorite fruit.")
-if "Banana" in Fruits:
-    print("Mango is my favorite fruit.")
-if "Orange" in Fruits:
-    print("Strawberry is my favorite fruit.")
-if "Grapes" in Fruits:
-    print("Apple is my favorite fruit.")
-if "Rambutan" in Fruits:
-    print("Watermelon is my favorite fruit.")
-if "Apple" in Fruits:
-    print("Apple is my favorite fruit.")    
+
+#making a list of favorite fruits
+favorite_fruits = ['orange', 'grape', 'banana']
+
+if 'pear' in favorite_fruits:
+    print("You really like pear!")
+if 'orange' in favorite_fruits:
+    print("You really like orange!")
+if 'strawberry' in favorite_fruits:
+    print("You really like strawberry!")
+if 'grape' in favorite_fruits:
+    print("You really like grape!")
+if 'apple' in favorite_fruits:
+    print("You really like apple!")
