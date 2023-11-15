@@ -11,7 +11,11 @@ the word on one line and then print its meaning indented on a second line. Use t
 each word-meaning pair in your output.'''
 
 #creating a dictionary consisting of five programming words learnerd in previous chapters
-glossary = {'if': 'This condition can be any expression that evaluates to either True or False','elif': 'it is used to include multiple conditional expressions after the if condition or even in between if and else conditions. ','else': 'it is used in conditional if statements, and decides what to do if the condition is False.','print': 'it is used to display a ceratin messge or call out a variable','input':'it helps the user to input the values' }
+glossary = {'if': 'This condition can be any expression that evaluates to either True or False',
+            'elif': 'it is used to include multiple conditional expressions after the if condition or even in between if and else conditions. ',
+            'else': 'it is used in conditional if statements, and decides what to do if the condition is False.',
+            'print': 'it is used to display a ceratin messge or call out a variable',
+            'input':'it helps the user to input the values' }
 
 word = 'if'
 print(f"\n{word.title()}: {glossary[word]}")
